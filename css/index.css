@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+body {
+  background-color: #5257e5;
+}
+
+nav {
+  background-color: #5257e5;
+  margin-bottom: 10px;
+}
+
+nav h2 {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #fafcff;
+  font-family: 'Raleway';
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0px;
+}
+
+nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fafcff;
+}
+
+nav ul li a:hover {
+  color: #010104;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+main {
+  background-color: #5257e5;
+  height: 80vh;
+}
+
+.header {
+  padding: 10vh 0px;
+}
+
+#msg-img {
+  background-image: url("../images/default.jpg");
+  width: 256px;
+  margin: auto;
+  border-radius: 16px;
+  height: 256px;
+  background-position: center;
+  background-size: cover;
+}
+
+.input-holder {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input-holder input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 15px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: #e6f1ff;
+}
+
+.input-holder #msg {
+  max-width: 600px;
+  min-width: 80%;
+  border-radius: 15px;
+}
+
+.past-key-holder {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 40%;
+  max-width: 400px;
+  margin: 45px auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.past-key-holder .key {
+  height: 64px;
+  width: 64px;
+  background-color: #e6f1ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.past-key-holder .key h2 {
+  margin: 16px;
+  color: #010104;
+  text-align: center;
+  font-size: 32px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fafcff;
+  margin: 10px auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

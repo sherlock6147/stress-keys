@@ -62,6 +62,9 @@ nav{
     #mobile-nav{
         display: block;
     }
+    main{
+        margin-bottom: 40px;
+    }
 }
 main{
     background-color: hsl(238, 74%, 61%);
@@ -128,7 +131,8 @@ main{
     }
 }
 footer{
-    position: fixed;
+    padding-top: 40px;
+    position: sticky;
     bottom: 0;
     left: 0;
     width: 100vw;

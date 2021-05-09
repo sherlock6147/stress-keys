@@ -196,10 +196,6 @@ main {
 
 footer {
   padding-top: 40px;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
-  left: 0;
   width: 100vw;
   z-index: 999;
   display: -webkit-box;
@@ -227,7 +223,8 @@ footer h2 {
   color: #fafcff;
   margin: 10px auto;
   font-weight: 400;
-  font-size: 1.2rem;
+  padding: 10px;
+  font-size: 1rem;
   text-align: center;
 }
 

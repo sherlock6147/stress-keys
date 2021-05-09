@@ -68,7 +68,7 @@ nav{
 }
 main{
     background-color: hsl(238, 74%, 61%);
-    height: 80vh;
+    min-height: 60vh;
 }
 .header{
     padding: 10vh 0px;
@@ -81,13 +81,6 @@ main{
     height: 256px;
     background-position: center;
     background-size: cover;
-}
-
-@media screen and (max-width:500px){
-    #msg-img{
-        width: 128px;
-        height: 128px;
-    }
 }
 .input-holder{
     margin-top: 15px;
@@ -163,4 +156,53 @@ footer{
 }
 #key-3{
     opacity: 0.5;
+}
+
+
+@media screen and (max-width:500px){
+    #msg-img{
+        width: 128px;
+        height: 128px;
+    }
+    .header{
+        padding: 20px 0px 10px;
+    }
+    .past-key-holder .key{
+        height: 32px;
+        min-width: 32px;
+        background-color: hsl(214, 100%, 95%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 5px;
+        h2{
+            margin: 8px;
+            color: hsl(238, 74%, 1%);
+            text-align: center;
+            font-size: 16px;
+            flex: 1;
+        }
+    }
+
+    .input-holder{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px 15px;
+        justify-content: center;
+        input{
+            flex: 1;
+            padding: 10px;
+            font-size: 1.2rem;
+            border: none;
+            outline: none;
+            background-color: hsl(214, 100%, 95%);
+        }
+        #msg{
+            max-width: 600px;
+            min-width: 70vw;
+            border-radius: 15px;
+        }
+    }
 }

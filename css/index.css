@@ -96,7 +96,7 @@ nav ul li h3 {
 
 main {
   background-color: #5257e5;
-  height: 80vh;
+  min-height: 60vh;
 }
 
 .header {
@@ -111,13 +111,6 @@ main {
   height: 256px;
   background-position: center;
   background-size: cover;
-}
-
-@media screen and (max-width: 500px) {
-  #msg-img {
-    width: 128px;
-    height: 128px;
-  }
 }
 
 .input-holder {
@@ -204,7 +197,6 @@ main {
 footer {
   padding-top: 10px;
   width: 100vw;
-  z-index: 999;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,5 +237,70 @@ footer h2 {
 
 #key-3 {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+  #msg-img {
+    width: 128px;
+    height: 128px;
+  }
+  .header {
+    padding: 20px 0px 10px;
+  }
+  .past-key-holder .key {
+    height: 32px;
+    min-width: 32px;
+    background-color: #e6f1ff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .past-key-holder .key h2 {
+    margin: 8px;
+    color: #010104;
+    text-align: center;
+    font-size: 16px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .input-holder {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 10px 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .input-holder input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: #e6f1ff;
+  }
+  .input-holder #msg {
+    max-width: 600px;
+    min-width: 70vw;
+    border-radius: 15px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

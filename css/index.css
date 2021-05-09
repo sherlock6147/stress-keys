@@ -71,6 +71,13 @@ nav ul li a:hover {
   font-size: 1.1rem;
 }
 
+nav ul li h3 {
+  opacity: 1;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #fafcff;
+}
+
 main {
   background-color: #5257e5;
   height: 80vh;
@@ -127,8 +134,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 40%;
-  max-width: 400px;
+  width: 256px;
   margin: 45px auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;

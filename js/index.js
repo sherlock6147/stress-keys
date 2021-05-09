@@ -1,4 +1,4 @@
-const numberOfImages = 3;
+const numberOfImages = 27;
 class Queue {
     constructor() {
         this.items = [];

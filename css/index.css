@@ -78,6 +78,19 @@ nav ul li h3 {
   color: #fafcff;
 }
 
+#mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  #normal {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+  }
+}
+
 main {
   background-color: #5257e5;
   height: 80vh;

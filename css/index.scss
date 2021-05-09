@@ -52,6 +52,17 @@ nav{
         }
     }
 }
+#mobile-nav{
+    display: none;
+}
+@media screen and (max-width:800px){
+    #normal{
+        display: none;
+    }
+    #mobile-nav{
+        display: block;
+    }
+}
 main{
     background-color: hsl(238, 74%, 61%);
     height: 80vh;

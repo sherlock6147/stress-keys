@@ -88,7 +88,7 @@ main {
 }
 
 #msg-img {
-  background-image: url("../images/default.jpg");
+  background-image: url("../images/image-1.webp");
   width: 256px;
   margin: auto;
   border-radius: 16px;
@@ -152,7 +152,7 @@ main {
 
 .past-key-holder .key {
   height: 64px;
-  width: 64px;
+  min-width: 64px;
   background-color: #e6f1ff;
   display: -webkit-box;
   display: -ms-flexbox;

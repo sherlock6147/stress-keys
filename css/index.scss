@@ -60,7 +60,7 @@ main{
     padding: 10vh 0px;
 }
 #msg-img{
-    background-image: url('../images/default.jpg');
+    background-image: url('../images/image-1.webp');
     width: 256px;
     margin: auto;
     border-radius: 16px;
@@ -100,7 +100,7 @@ main{
     align-items: baseline;
     .key{
         height: 64px;
-        width: 64px;
+        min-width: 64px;
         background-color: hsl(214, 100%, 95%);
         display: flex;
         justify-content: center;

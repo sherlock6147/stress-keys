@@ -113,6 +113,13 @@ main {
   background-size: cover;
 }
 
+@media screen and (max-width: 500px) {
+  #msg-img {
+    width: 128px;
+    height: 128px;
+  }
+}
+
 .input-holder {
   margin-top: 15px;
   display: -webkit-box;
@@ -195,7 +202,7 @@ main {
 }
 
 footer {
-  padding-top: 40px;
+  padding-top: 10px;
   width: 100vw;
   z-index: 999;
   display: -webkit-box;
